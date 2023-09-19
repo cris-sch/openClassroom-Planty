@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* Import de la font Roboto depuis Google Fonts et on l'applique sur tous les éléments de la page */
+body * {
+   font-family: 'syne', sans-serif;
+}
+/* On applique un gris plus clair sur les paragraphes */
+p {
+   color: #313332;
+}
+/* La classe 'hover-effect' permettra de créer un effet de zoom quand l'on passera la souris par dessus les elements images enfants  */
+.hover-effect img {
+   transition: all 0.33s ease-in-out;
+   transform: scale(1) translateY(0px);
+}
+.hover-effect img:hover {
+   transition: all 0.33s ease-in-out;
+   transform: scale(1.05) translateY(-10px);
+}
+/* HEADER */
+
+#site-header.sticky-top {
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    background-color: #ffff;
+ }
+ 
+ li.menu-item a {
+    color: #313332 !important;
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #ffff;
+    border-radius: 10px;
+    text-align: center;
+ }
+ 
+ li.menu-item a:hover,
+ li.menu-item.current-menu-item a {
+    color: #313332 !important;
+    background-color: #E0B9B4;
+    text-decoration: none !important;
+ }
+
+ #site-footer {
+    padding: 20px;
+    text-align: center;
+    color: #6d6d6d;
+    background-color: #ffff !important;
+ }
+
+ /* Nous rencontrer */
+
+ #apropos h1 {
+   text-align: center;
+   font-size: 40px;
+}
+#apropos > section {
+   max-width: 1200px;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding: 0 20px;
+}
+#apropos > section h2 {
+   width: 100%;
+   padding: 0 15px;
+   font-size: 30px;
+}
+#apropos > section .image {
+   width: 300px;
+   padding: 0 15px;
+}
+#apropos > section .image img {
+   width: 100%;
+}
+#apropos > section .text {
+   flex: 1;
+}
+@media( max-width: 768px){
+   #apropos > section > *{
+       width: 100%;
+       flex: initial!important;
+   }
+   #apropos > section .image{
+       order:2;
+   }
+}
+
+/* commande */
+
+#lexique {
+  background-color: #326238; 
+  padding: 20px; 
+}
+
+
+#lexique h1 {
+  font-size: 24px; 
+  color: #ffffff; 
+}
+
+
+#lexique section {
+  background-color: #326238; 
+  padding: 20px; 
+  margin-bottom: 20px; 
+}
+
+
+#lexique .mot {
+  cursor: pointer; 
+}
+
+
+#lexique .mot.open {
+  font-weight: bold; 
+  color: #ff0000;
+}
+
+/* Styles pour la page "Nous rencontrer" */
+
+
+main h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #D2776A; 
+}
+
+main h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #326238; 
+}
+
+section {
+  padding: 20px;
+  background-color: #E3D9D0; 
+  text-align: center; 
+}
+
+/* Styles pour les mots du lexique */
+#lexique {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mot {
+  flex: 0 0 50%; 
+  padding: 10px;
+  margin: 5px;
+  background-color: #ddd; 
+  text-align: center;
+  cursor: pointer;
+}
+
+.mot.open {
+  background-color: #E3D9D0; 
+  color: #fff; 
+}
+
+.planty-images{
+   width: 100px;
+}
+
+#site-footer{
+   background-image: url(../images/footer2.png);
+   background-repeat: repeat-x;
+   background-position: top;
+   padding-top: 150px;
+   background-color: white;
+}
