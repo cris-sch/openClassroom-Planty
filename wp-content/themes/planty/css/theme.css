@@ -173,6 +173,15 @@ section {
    padding-top: 150px;
    background-color: white;
 }
-#membre-equipes section{
+.membre-equipes {
    background-color: white;
+}
+
+.bg-white{
+   background-color: #e3d9d0;
+   background-image: url(../images/Rectangle.png);
+   background-position: top;
+background-size: cover;
+padding-top: 65px;
+
 }
