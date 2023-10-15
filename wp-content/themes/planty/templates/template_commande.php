@@ -6,7 +6,7 @@
 $definitions= array(
     array(
         'titre' => 'framboise',
-        
+    
     ),
     array(
         'titre' => 'pamplemousse',
@@ -36,8 +36,19 @@ get_header();
     }
     ?>
     </section>
+ 
 
 </main><!-- #site-content -->
+<div class="input-container">
+  <label for="ticketNum"></label>
+  <div class="quantity-input">
+    <input id="ticketNum" type="number" name="ticketNum" value="0" />
+    <button class="increment">+</button>
+    <button class="decrement">-</button>
+  </div>
+  <button class="command-button">ok</button>
+</div>
+
 <script>
     const mots = document.querySelectorAll("#lexique .mot");
     mots.forEach(mot => {

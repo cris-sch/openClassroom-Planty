@@ -163,9 +163,33 @@ section {
 }
 
 .planty-images{
-   width: 100px;
+   width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+ 
 }
 
+h2.trefle{
+   background-image: url(../images/trefle.png);
+   background-repeat: no-repeat;
+   background-position: top left;
+   background-size: 150px;
+}
+
+.branche{
+   background-image: url(../images/branche.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: right bottom;
+   background-size: 150px;
+   margin-right: 50px;
+}
+.fluentform{
+   background-image: url(../images/feuilles.png);
+   background-repeat: no-repeat;
+   background-position: left bottom;
+ 
+}
 #site-footer{
    background-image: url(../images/footer2.png);
    background-repeat: repeat-x;
@@ -175,13 +199,55 @@ section {
 }
 .membre-equipes {
    background-color: white;
+   
 }
 
 .bg-white{
    background-color: #e3d9d0;
    background-image: url(../images/Rectangle.png);
    background-position: top;
-background-size: cover;
-padding-top: 65px;
+   background-size: cover;
+   padding-top: 65px;
 
+}
+
+ #ticketNum {
+   background-color: yellow; 
+   color: black; 
+   border: 1px solid black;
+   border-radius: 5px; 
+   top: 522px;
+   left: 290px;
+   width: 100px; 
+   height: 56px; 
+   margin: 0 15px; 
+ }
+ 
+ 
+ .command-button {
+   background-color: #E0B9B4; 
+   color: white; 
+   border: none; 
+   border-radius: 5px; 
+   padding: 10px 20px; 
+   top: 522px;
+   height: 56px;
+   left: 385px;
+   width: 100px;
+ }
+ 
+ .increment{
+   Width:10px;
+   Height:24px;
+   Top:522px;
+   Left:354px;
+   border-radius: 5px 5px 0px 0px;
+ }
+
+.decrement{
+   Width:10px;
+   Height:24px;
+   Top:522px;
+   Left:354px;
+   border-radius: 0px 0px 5px 5px;
 }
