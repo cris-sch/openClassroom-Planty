@@ -182,7 +182,7 @@ h2.trefle{
    background-size: cover;
    background-position: right bottom;
    background-size: 150px;
-   margin-right: 50px;
+   margin:0 50px 0 0 ;
 }
 .fluentform{
    background-image: url(../images/feuilles.png);
@@ -212,9 +212,8 @@ h2.trefle{
 }
 
  #ticketNum {
-   background-color: yellow; 
+   background-color: white; 
    color: black; 
-   border: 1px solid black;
    border-radius: 5px; 
    top: 522px;
    left: 290px;
@@ -230,24 +229,39 @@ h2.trefle{
    border: none; 
    border-radius: 5px; 
    padding: 10px 20px; 
+   cursor: pointer;
    top: 522px;
    height: 56px;
    left: 385px;
    width: 100px;
  }
  
- .increment{
-   Width:10px;
-   Height:24px;
-   Top:522px;
-   Left:354px;
-   border-radius: 5px 5px 0px 0px;
- }
+.parfum-container{
+   display: flex;
+   align-items: center;
+   gap: 20px;
 
-.decrement{
-   Width:10px;
-   Height:24px;
-   Top:522px;
-   Left:354px;
-   border-radius: 0px 0px 5px 5px;
+}
+.images-gouts{
+      max-width: 50%; 
+      height: auto; 
+      display: block; 
+      margin: 0 auto;
+  }
+  
+#membre-equipes .images-equipe{  
+      margin: 0; 
+      background-color: white;
+}
+body {
+   font-family: 'Syne', sans-serif;
+}
+.image-gouts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+#membre-equipes{
+   padding: 0;
 }

@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne:400,700&display=swap">
+
 <?php
 /**
  * Template Name: Template acceuil
