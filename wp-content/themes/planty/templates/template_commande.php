@@ -26,30 +26,26 @@ get_header();
 <html>
 
 <head>
-    <title>Titre de votre page</title>
+    <title>Votre commande</title>
 </head>
 
 <body>
     <div class="parfum-container">
         <div>
             <img src="<?php bloginfo('url'); ?>/wp-content/themes/planty/images/Fraise.png">
-            <input id="ticketNum" type="number" name="ticketNum" value="0" />
-            <button class="command-button">OK</button>
+            <input id="ticketNum" type="number" name="ticketNum" value="0" /> <button class="command-button">OK</button>
         </div>
         <div>
             <img src="<?php bloginfo('url'); ?>/wp-content/themes/planty/images/Pamplemousse.png">
-            <input id="ticketNum" type="number" name="ticketNum" value="0" />
-            <button class="command-button">OK</button>
+            <input id="ticketNum" type="number" name="ticketNum" value="0" /> <button class="command-button">OK</button>
         </div>
         <div>
             <img src="<?php bloginfo('url'); ?>/wp-content/themes/planty/images/Citron.png">
-            <input id="ticketNum" type="number" name="ticketNum" value="0" />
-            <button class="command-button">OK</button>
+            <input id="ticketNum" type="number" name="ticketNum" value="0" /> <button class="command-button">OK</button>
         </div>
         <div>
             <img src="<?php bloginfo('url'); ?>/wp-content/themes/planty/images/Framboise.png">
-            <input id="ticketNum" type="number" name="ticketNum" value="0" />
-            <button class="command-button">OK</button>
+            <input id="ticketNum" type="number" name="ticketNum" value="0" /> <button class="command-button">OK</button>
         </div>
      </div>
 
